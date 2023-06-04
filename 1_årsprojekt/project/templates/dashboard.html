@@ -1,0 +1,18 @@
+
+{% extends "base.html" %}
+
+{% block content %}
+
+    <title>Dashboard</title>
+
+    <h2>Dashboard</h2>
+
+    <button onclick="createTrashBinVisualizer()">Create Trash Bin Visualizer</button>
+
+    <div id="visualizerContainer"></div>
+
+    <button id="editButton" onclick="toggleFormButtons()">Edit</button>
+
+
+    <script src="../static/dashboard.js"></script>
+{% endblock %}
