@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPS Location</title>
+
+    <!-- Include Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+    <!-- Link to your external CSS file -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>GPS Location</h1>
+    </header>
+
+    <main>
+        <h2>GPS Location:</h2>
+        <div id="map"></div>
+        <p id="location">Loading...</p>
+    </main>
+
+    <script>
+        var map;
+        var marker;
+
+        function initMap() {
+            // Default center and zoom level are set here
+            map = L.map('map').setView([0, 0], 20);
+
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '© OpenStreetMap contributors'
+            }).addTo(map);
+
+            // Create a marker and add it to the map
+            marker = L.marker([0, 0]).addTo(map);
+
+            updateLocation();
+        }
+
+        function updateLocation() {
+            fetch('/get_fall')
+                .then(response => response.json())
+                .then(data => {
+                    var coordinates = data.fallen.split(',').map(Number);
+
+                    // Update the marker's location
+                    marker.setLatLng(coordinates);
+
+                    // Set the map view to the current location
+                    map.setView(coordinates, 20);
+
+                    // Update the location paragraph
+                    document.getElementById('location').innerText = `Coordinates: ${coordinates[0]}, ${coordinates[1]}`;
+                });
+        }
+
+        setInterval(() => {
+            updateLocation();
+        }, 5000);
+
+        // Initial update
+        updateLocation();
+
+        // Call the initMap function after the page is loaded
+        document.addEventListener('DOMContentLoaded', function () {
+            initMap();
+        });
+    </script>
+</body>
+
+</html>
