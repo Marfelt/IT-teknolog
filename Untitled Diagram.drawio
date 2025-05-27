@@ -1,96 +1,9 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0" version="26.1.1">
-  <diagram name="Page-1" id="uSITYjwAA-zvG4rq9jv7">
-    <mxGraphModel dx="1387" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 OPR/118.0.0.0" version="26.1.1">
+  <diagram name="Page-1" id="cX2Kl3vK1QJs1fEhoTsr">
+    <mxGraphModel>
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="FN2NjomvijglIna8Svyg-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FN2NjomvijglIna8Svyg-1" target="FN2NjomvijglIna8Svyg-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FN2NjomvijglIna8Svyg-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FN2NjomvijglIna8Svyg-1" target="FN2NjomvijglIna8Svyg-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FN2NjomvijglIna8Svyg-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FN2NjomvijglIna8Svyg-1" target="FN2NjomvijglIna8Svyg-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FN2NjomvijglIna8Svyg-1" value="API-Tokens" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="80" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="FN2NjomvijglIna8Svyg-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FN2NjomvijglIna8Svyg-2" target="FN2NjomvijglIna8Svyg-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FN2NjomvijglIna8Svyg-2" value="Phishing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="200" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="FN2NjomvijglIna8Svyg-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FN2NjomvijglIna8Svyg-3" target="FN2NjomvijglIna8Svyg-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FN2NjomvijglIna8Svyg-3" value="Network-Based" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="200" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="FN2NjomvijglIna8Svyg-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FN2NjomvijglIna8Svyg-4" target="FN2NjomvijglIna8Svyg-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FN2NjomvijglIna8Svyg-4" value="Token Leak" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="625" y="200" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="FN2NjomvijglIna8Svyg-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FN2NjomvijglIna8Svyg-6" target="FN2NjomvijglIna8Svyg-18">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FN2NjomvijglIna8Svyg-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FN2NjomvijglIna8Svyg-6" target="FN2NjomvijglIna8Svyg-17">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FN2NjomvijglIna8Svyg-6" value="MitM angreb" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="320" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="FN2NjomvijglIna8Svyg-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FN2NjomvijglIna8Svyg-7" target="FN2NjomvijglIna8Svyg-28">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FN2NjomvijglIna8Svyg-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FN2NjomvijglIna8Svyg-7" target="FN2NjomvijglIna8Svyg-31">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FN2NjomvijglIna8Svyg-7" value="Angriber får adgang til fildestination på token" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="625" y="320" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="FN2NjomvijglIna8Svyg-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FN2NjomvijglIna8Svyg-8" target="FN2NjomvijglIna8Svyg-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FN2NjomvijglIna8Svyg-8" value="Angriber sender phishing mails til developers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="320" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="FN2NjomvijglIna8Svyg-9" value="Angriber kan agere som Fake APS mod Visa" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="520" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="FN2NjomvijglIna8Svyg-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FN2NjomvijglIna8Svyg-11" target="FN2NjomvijglIna8Svyg-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FN2NjomvijglIna8Svyg-11" value="Får adgang til brugeren og oplysninger" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="420" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="FN2NjomvijglIna8Svyg-16" value="Får fat i oplysninger ved at udgive sig for at være Visa" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="540" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="FN2NjomvijglIna8Svyg-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FN2NjomvijglIna8Svyg-17" target="FN2NjomvijglIna8Svyg-24">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FN2NjomvijglIna8Svyg-17" value="Packet Sniffing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="405" y="420" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="FN2NjomvijglIna8Svyg-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FN2NjomvijglIna8Svyg-18" target="FN2NjomvijglIna8Svyg-16">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FN2NjomvijglIna8Svyg-18" value="DNS Spoofing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="420" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="FN2NjomvijglIna8Svyg-24" value="Eavesdropper på trafik og får fat på oplysninger" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="405" y="540" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="FN2NjomvijglIna8Svyg-28" value="Kan lække til offentligheden" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="420" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="FN2NjomvijglIna8Svyg-31" value="Kan få adgang til fortrolige oplysninger" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="685" y="420" width="120" height="60" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
